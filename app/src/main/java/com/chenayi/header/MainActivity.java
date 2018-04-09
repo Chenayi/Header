@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         adapter = new CommomViewPagerAdapter(getSupportFragmentManager(), TITLES, fragments);
         vp.setAdapter(adapter);
 
-        tabLayout.setupWithViewPager(vp);
+        tabLayout.setupWithViewPager(vp,false);
     }
 
     private void initBanner() {
