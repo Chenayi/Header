@@ -58,7 +58,7 @@ public class TestFragment extends Fragment {
     private List<String> datas() {
         List<String> datas = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
-            datas.add("text : " + i);
+            datas.add("text : " + (i + 1));
         }
         return datas;
     }
